@@ -24,7 +24,8 @@ body {
     color: #d9dcd6;
 }
 
-.header div {
+/*Changed CSS selector to select nav tag that's inside .header class*/
+.header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -32,11 +33,13 @@ body {
     font-size: 20px;
 }
 
-.header div ul {
+/*Changed CSS selector to select unordered list that's inside nav tag that's inside .header class*/
+.header nav ul {
     list-style-type: none;
 }
 
-.header div ul li {
+/*Changed CSS selector to select unordered list item that's inside nav tag that's inside .header class*/
+.header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
