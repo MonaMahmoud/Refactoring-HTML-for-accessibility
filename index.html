@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="./assets/css/style.css">
-    <!--Changed title text to be more meaningful "Horiseon Social Solution Services Homepage"-->
+    <!--Changed title text to be meaningful-->
     <title>Horiseon Social Solution Services Homepage</title>
 </head>
 
@@ -29,7 +29,8 @@
     </header>
     <!--Left the div containing background image as is since it is mainly for decorative purpose-->
     <div class="hero"></div>
-    <div class="content">
+    <!--Changed div into main to be semantic-->
+    <main class="content">
         <!-- Added id attribute for the "search-engine-optimization" link to work-->
         <!--Changed div into section to be semantic-->
         <section id="search-engine-optimization" class="search-engine-optimization">
@@ -58,30 +59,37 @@
                 Social media continues to have a sizable influence on buying habits. Social media marketing helps you determine which platforms are suited to your brand, using analytics to find the right markets and increase your lead generation.
             </p>
         </section>
-    </div>
-    <div class="benefits">
-        <div class="benefit-lead">
+    </main>
+    <!--Changed div into aside to be semantic-->
+    <aside class="benefits">
+        <!--Changed div into section to be semantic-->
+        <section class="benefit-lead">
             <h3>Lead Generation</h3>
+            <!--alt attribute not needed for decorative image-->
             <img src="./assets/images/lead-generation.png" />
             <p>
                 Inbound strategies for lead generation require less work for your business, bringing customers directly to your website.
             </p>
-        </div>
-        <div class="benefit-brand">
+        </section>
+        <!--Changed div into section to be semantic-->
+        <section class="benefit-brand">
             <h3>Brand Awareness</h3>
+            <!--alt attribute not needed for decorative image-->
             <img src="./assets/images/brand-awareness.png" />
             <p>
                 Users find your business through paid and organic searches, increasing the search ranking and visibility for your business.
             </p>
-        </div>
-        <div class="benefit-cost">
+        </section>
+        <!--Changed div into section to be semantic-->
+        <section class="benefit-cost">
             <h3>Cost Management</h3>
+            <!--alt attribute not needed for decorative image-->
             <img src="./assets/images/cost-management.png" />
             <p>
                 As the search ranking for your business increases, your advertising costs decrease, and you no longer need to advertise your page.
             </p>
-        </div>
-    </div>
+        </section>
+    </aside>
     <!--Changed div to footer to be semantic-->
     <footer class="footer">
         <h2>Made with ❤️️ by Horiseon</h2>
