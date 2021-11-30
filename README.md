@@ -1,4 +1,4 @@
-# Improving Accessibility: Week 1 Assignment
+# Refactoring HTML to improve Accessibility: Week 1 Assignment
 ## Description
 Project requirements include refactoring of site HTML code to increase accessiblity through using semantic HTML elements. 
 In addition to that it is required to increase the efficiency of the CSS by consolidating the selectors and properties 
@@ -13,10 +13,11 @@ HTML and CSS files can be viewed in index.html and assests/css/style.css files i
 
 ## Usage
 
+Upon opening the website this is how it looks like: Please use links in navigation bar to navigate to different sections.
 
-Provide instructions and examples for use. Include screenshots as needed.
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
-    
-    
-    ![First Screenshot](./assets/images/brand-awareness.png)
+![First Screenshot](./assets/images/screenshot1.png)
+![Second Screenshot](./assets/images/screenshot2.png)
+
+
+
 

@@ -1,13 +1,15 @@
+/* global styling for all page elements*/
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
-
+/*Change background color */
 body {
     background-color: #d9dcd6;
 }
 
+/* change header styling*/
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -15,11 +17,13 @@ body {
     color: #ffffff;
 }
 
+/* change styling of h1 element inside header*/
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/*change styling of h1 element inside header and has class .seo*/
 .header h1 .seo {
     color: #d9dcd6;
 }
@@ -44,15 +48,18 @@ body {
     margin-left: 25px;
 }
 
+/* Change styling of a element */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* Change styling of paragraph*/
 p {
     font-size: 16px;
 }
 
+/* Class hero*/
 .hero {
     height: 800px;
     width: 100%;
@@ -62,22 +69,26 @@ p {
     background-position: center;
 }
 
+/*Class .float-left*/
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/*Class float-right*/
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
+/*Class content*/
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/*Class benefits*/
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -135,6 +146,7 @@ p {
     font-size: 36px;
 }
 
+/* change footer styling */
 .footer {
     padding: 30px;
     clear: both;
@@ -142,6 +154,7 @@ p {
     text-align: center;
 }
 
+/* change styling of h2 inside footer */
 .footer h2 {
     font-size: 20px;
 }
